@@ -419,150 +419,6 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/09/01/反向创建model/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jasenk">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jasenk Blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/09/01/反向创建model/" itemprop="url">Untitled</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-09-01T12:22:40+08:00">
-                2018-09-01
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">title: 反向工程配置</span><br><span class="line">date: 2018-08-2</span><br></pre></td></tr></table></figure>
-<p>mvc的架构</p>
-<p>sql语句结构化查询语言 </p>
-<p>drop database if exists fang 删除</p>
-<p>create database fang default charset utf8<br>collate utf8_bin 创建数据库</p>
-<p>use fang </p>
-<p>创建虚拟环境</p>
-<p>python -m venv   +虚拟环境名</p>
-<p>pip freeze 查看依赖库</p>
-<p>输出重定向</p>
-<p>pip freeze &gt; requirements.txt<br>把依赖库放到txt文件里面</p>
-<p>安装<br>pip install -r requirements.txt</p>
-<p>pip check 检查安装依赖库</p>
-<p>创建django 项目</p>
-<p>django-admin startproject fang .</p>
-<p>dir 查看</p>
-<p>创建应用</p>
-<p>python manage.py startapp common</p>
-<p>修改配置文件</p>
-<p>python manage.py inspectdb &gt; common/models.py 检查数据库把检查的结果输出到common/models.py 中</p>
-<hr>
-<p><strong>init</strong>  在这个文件中写上下面几句</p>
-<p>import pymysql</p>
-<p>pymysql.install_as_MySQLdb()</p>
-<hr>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/09/01/hello-world/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -643,6 +499,149 @@
 <p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/08/02/反向创建model/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jasenk">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jasenk Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/08/02/反向创建model/" itemprop="url">反向工程配置</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-08-02T13:32:00+08:00">
+                2018-08-02
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>mvc的架构</p>
+<p>sql语句结构化查询语言 </p>
+<p>drop database if exists fang 删除</p>
+<p>create database fang default charset utf8<br>collate utf8_bin 创建数据库</p>
+<p>use fang </p>
+<p>创建虚拟环境</p>
+<p>python -m venv   +虚拟环境名</p>
+<p>pip freeze 查看依赖库</p>
+<p>输出重定向</p>
+<p>pip freeze &gt; requirements.txt<br>把依赖库放到txt文件里面</p>
+<p>安装<br>pip install -r requirements.txt</p>
+<p>pip check 检查安装依赖库</p>
+<p>创建django 项目</p>
+<p>django-admin startproject fang .</p>
+<p>dir 查看</p>
+<p>创建应用</p>
+<p>python manage.py startapp common</p>
+<p>修改配置文件</p>
+<p>python manage.py inspectdb &gt; common/models.py 检查数据库把检查的结果输出到common/models.py 中</p>
+<hr>
+<p><strong>init</strong>  在这个文件中写上下面几句</p>
+<p>import pymysql</p>
+<p>pymysql.install_as_MySQLdb()</p>
+<hr>
 
           
         
